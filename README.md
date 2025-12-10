@@ -31,6 +31,7 @@ Verify the installation:
 ```sh
 python3 --version
 ```
+
 ## Map the standard input using '-i' parameter and terminal using 't'
 ## Append a bash command to run the bash command when it starts the container and work on that particular container
 ```sh
@@ -42,9 +43,13 @@ docker run -it ubuntu bash
 apt install -y python3 python3-pip
 ```
 
-## Install Flask
+## Install Flask using virtual environment
 ```sh
-pip3 install flask
+apt update
+apt install -y python3-venv
+python3 -m venv venv
+source venv/bin/activate
+pip install flask
 ```
 
  ## Install My-sql
