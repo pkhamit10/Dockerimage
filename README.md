@@ -1,11 +1,9 @@
-# Simple Flask + MySQL Web App
+# Simple Flask 
 
-Simple example web application using Python Flask and a MySQL database. Includes instructions for local development and Docker.
+Simple example web application using Python Flask. Includes instructions for local development and Docker.
 
 ## Requirements
 - Install required dependencies
-- Install and Configure Database
-- Start Database Service
 - Install and configure Web Server
 - Start Web Server
 
